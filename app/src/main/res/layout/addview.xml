@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rljingli1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        >
+        <TextView
+            android:id="@+id/tvshanchu1"
+            android:layout_width="45dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="删除"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvrenzhigonsi1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:hint="任职公司1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvrenzhitiem1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvrenzhigonsi1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:hint="任职时间"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvrenzhiwei1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvrenzhitiem1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:hint="职位"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvrenzhijingli1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@+id/tvrenzhiwei1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:hint="经历描述"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/ivjian5"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+</LinearLayout>
